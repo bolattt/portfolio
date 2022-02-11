@@ -1,0 +1,119 @@
+/* google fonts */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,200&family=Waiting+for+the+Sunrise&display=swap');
+
+root{
+    --header-height:3rem;
+
+    /*========== Colors ==========*/
+    --primary:#0e1012;
+    --secondary:#0e0f12;
+    --text: #e2e2e2;
+    --title: white;
+    --link:#8b7af4;
+}
+
+/* #242627
+
+#303135
+
+#74797e  grey text 
+
+#e2e2e2 grey text
+
+#0e1012 dark black 
+
+#0e0f12 pale black
+
+# 6b6e74  text grey  */
+
+/* #8b7af4 purple link text */
+body{
+    /* background-color: #e2e2e2; */
+    background-color: #242627;
+}
+
+section{
+    height:100vh;
+}
+nav a {
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+
+  /* section two  */
+
+.section--two{
+    text-align: center;
+    /* background-color:#242627;
+    color: #e2e2e2; */
+
+    color:#242627;
+    background-color: #e2e2e2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    clip-path:polygon(0 0,100% 0,100% 70%,0 100%);
+}
+
+
+/* section three */
+.section--one{
+    /* color:#242627;
+    background-color: #e2e2e2;  */
+    background-color: #e2e2e2;
+    clip-path:polygon(0 0,100% 0,100% 90%,0 100%);
+
+}
+.one-top{
+    background-color:hsl(228, 5%, 20%);
+    color: white;
+    width: 100%;
+    padding:2rem;
+
+}
+
+.section--one h4{
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 1rem;
+}
+ .typedtext{
+        /* color:#242627; */
+        font-style: italic; 
+        font-size:40px; 
+        margin: 10px 50px; 
+        letter-spacing: 10px; 
+        font-weight: bold;   
+}
+
+ .typedtext{
+	text-align: center;
+	color: rgba(0,0,0,0.3);
+	font-size: 3rem;
+	padding-bottom: 100px;
+}
+.text-shadow{
+    text-shadow: 0 -2px 0 #333,
+    0 3px 4px rgba(0,0,0, 0.4),
+    0 4px 5px rgba(0,0,0, 0.15),
+    0 14px 5px rgba(0,0,0, 0.18),
+    0 6px 5px rgba(0,0,0, 0.21);
+}
+
+/* wrapper contact me*/ 
+.wrapper{
+    background-color:hsl(228, 5%, 20%);
+    color:#e2e2e2;
+    border-radius: 10px;
+}
+
+ @media screen and (min-width:978px){
+    .wrapper{
+        width: 35%;
+        height: 55%;
+    }
+} 

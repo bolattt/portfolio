@@ -1,0 +1,70 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/*==================== VARIABLES CSS ====================*/
+
+root{
+    --header-height:3rem;
+
+    /*========== Colors ==========*/
+
+    --hue-color:210;
+
+    /* --primary: hsl(var(--hue-color), 13%, 6%);
+    --secondary:#0e0f12;
+    --text: #6b6e74;
+    --title: white;
+    --link:#8b7af4; */
+
+    /* font and typography */
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--primary);
+    color:var(--text);
+}
+section{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width:auto;
+}
+
+#section--one{
+    background-image: url(./assets/images/wave.svg);
+
+}
+
+#section--two{
+    /* background-image: url(./assets/images/blob.svg); */
+    background-color: #303135;
+}
+
+#section--three{
+    background-color: #242627;
+}
+
+@media scren and (min-width:968px){
+    :root{
+        --big-font-size:3rem;
+        --h1-font-size:2.25rem;
+        --h2-font-size:1.5rem;
+        --h3-font-size:1.25rem;
+        --normal-font-size:1rem;
+        --small-font-size:.875rem;
+        --smaller-font-size:.813rem;
+    }
+}
+
+
+/* base */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
