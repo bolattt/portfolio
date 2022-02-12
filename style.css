@@ -30,7 +30,7 @@ root{
 /* #8b7af4 purple link text */
 body{
     /* background-color: #e2e2e2; */
-    background-color: #242627;
+    /* background-color: #242627; */
 }
 
 section{
@@ -78,12 +78,17 @@ nav a {
     width: 100%;
     padding:2rem;
 }
+.profile-pic{
 
+}
 
 .section--one h4{
     text-align: center;
     line-height: 2;
     letter-spacing: 1rem;
+}
+.section--one p{
+    font-size: 1.5rem;
 }
  .typedtext{
     /* color:#242627; */
@@ -137,4 +142,22 @@ footer{
         opacity:1;
         /* transform: translateX(0); */
     }
+}
+
+
+/* section four */
+.section--four{
+    background-color: #242627;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-pic-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section--four img{
+    border-radius: 50%;
+    max-width: 70%;
 }
