@@ -78,9 +78,7 @@ nav a {
     width: 100%;
     padding:2rem;
 }
-.profile-pic{
 
-}
 
 .section--one h4{
     text-align: center;
@@ -158,6 +156,23 @@ footer{
     align-items: center;
 }
 .section--four img{
-    border-radius: 50%;
+    /* border-radius: 50%; */
     max-width: 70%;
+    opacity:0.9;
+}
+
+/* skill section */
+.skill--section img{
+    width:200px;
+    margin:2rem;
+}
+
+.skill--section .container{
+    margin-top:20%;
+}
+.skill--section .row{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:2rem;
 }
