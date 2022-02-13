@@ -113,15 +113,33 @@ nav a {
     0 14px 5px rgba(0,0,0, 0.18),
     0 6px 5px rgba(0,0,0, 0.21);
 }
-
+#footer{
+    padding:1rem;
+}
 
 footer p{
     text-align: center;
     color:rgba(255,255,255,0.7);
-    margin-top:10px;
+    margin-top:14px;
 }
 
 /* wrapper contact me*/ 
+.contact-me{
+    position:relative;
+}
+.background-wrapper{
+    background-image: url('./assets/nyc-grey.png');
+    background-size: cover;
+    background-position: top;
+
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    opacity: 0.9;
+    z-index: -10;
+}
 .wrapper{
     background-color:hsl(228, 5%, 20%);
     color:#e2e2e2;
@@ -214,7 +232,7 @@ footer p{
  .scroll-up{
      position: fixed;
      right: 1.8%;
-     bottom: 5%;
+     bottom: 4%;
      cursor:pointer;
      z-index: 100;
  }
@@ -222,6 +240,9 @@ footer p{
      width:3rem;
      height: 3rem;
  }
+
+ /* contact me */
+
 
 
 
