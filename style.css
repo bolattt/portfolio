@@ -77,6 +77,11 @@ nav a {
     color: white;
     width: 100%;
     padding:2rem;
+    z-index:0;
+}
+
+.sticky-offset{
+    top:45px;
 }
 
 
@@ -88,7 +93,7 @@ nav a {
 .section--one p{
     font-size: 1.5rem;
 }
- .typedtext{
+.typedtext{
     /* color:#242627; */
     font-style: italic; 
     margin: 10px 50px; 
@@ -96,7 +101,7 @@ nav a {
     font-weight: bold;   
 }
 
- .typedtext{
+.typedtext{
 	text-align: center;
 	color: rgba(255,255,255,0.9);
 	font-size: 2rem;
@@ -109,9 +114,11 @@ nav a {
     0 6px 5px rgba(0,0,0, 0.21);
 }
 
-footer{
-    color:rgba(255,255,255,0.5);
+
+footer p{
     text-align: center;
+    color:rgba(255,255,255,0.7);
+    margin-top:10px;
 }
 
 /* wrapper contact me*/ 
@@ -149,6 +156,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    height:90vh;
 }
 .profile-pic-container{
     display: flex;
@@ -157,8 +165,7 @@ footer{
 }
 .section--four img{
     /* border-radius: 50%; */
-    max-width: 70%;
-    opacity:0.9;
+    max-width: 60%;
 }
 
 /* skill section */
@@ -169,6 +176,8 @@ footer{
 
 .skill--section .container{
     margin-top:20%;
+    margin-bottom:20%;
+
 }
 .skill--section .row{
     display:flex;
@@ -189,6 +198,7 @@ footer{
     padding: 1.3rem;
     display: flex;
   }
+
   .neumorphic2 {
     box-shadow: 12px 12px 24px 0 rgba(255, 255, 255, 0.2),
       -12px -12px 24px 0 rgba(255, 255, 255, 0.1);
@@ -200,3 +210,18 @@ footer{
     padding: 1.3rem;
     display: flex;
   }
+
+ .scroll-up{
+     position: fixed;
+     right: 1.8%;
+     bottom: 5%;
+     cursor:pointer;
+     z-index: 100;
+ }
+ .up-arrow{
+     width:3rem;
+     height: 3rem;
+ }
+
+
+

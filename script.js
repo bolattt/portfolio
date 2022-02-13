@@ -1,3 +1,12 @@
+const scrollUp = document.querySelector('.scroll-up');
+scrollUp.addEventListener('click',()=> {
+    window.scrollTo({
+        top:0,
+        left:0,
+        behavior:"smooth"
+    })
+})
+
 // set up text to print, each item in array is new line
 var aText = new Array(
     "Hi, welcome to my page!", 
@@ -36,3 +45,5 @@ var aText = new Array(
     
     
     typewriter();
+
+  
