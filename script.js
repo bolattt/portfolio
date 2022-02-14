@@ -1,3 +1,14 @@
+
+const navlinks = document.getElementsByClassName('nav-link')
+for(let link of navlinks){
+    link.addEventListener('click',() => {
+        const current = document.getElementsByClassName('active')
+        console.log(current)
+        current[0].classList.remove('active')
+        link.classList.add('active')
+    })
+}
+
 const scrollUp = document.querySelector('.scroll-up');
 scrollUp.addEventListener('click',()=> {
     window.scrollTo({
@@ -6,6 +17,8 @@ scrollUp.addEventListener('click',()=> {
         behavior:"smooth"
     })
 })
+
+
 
 // set up text to print, each item in array is new line
 var aText = new Array(
@@ -45,5 +58,3 @@ var aText = new Array(
     
     
     typewriter();
-
-  
