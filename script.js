@@ -1,4 +1,5 @@
 
+// add active class to nav 
 const navlinks = document.getElementsByClassName('nav-link')
 for(let link of navlinks){
     link.addEventListener('click',() => {
@@ -9,6 +10,7 @@ for(let link of navlinks){
     })
 }
 
+// scroll top button
 const scrollUp = document.querySelector('.scroll-up');
 scrollUp.addEventListener('click',()=> {
     window.scrollTo({
@@ -18,7 +20,8 @@ scrollUp.addEventListener('click',()=> {
     })
 })
 
-
+// initialize AOS library 
+AOS.init();
 
 // set up text to print, each item in array is new line
 var aText = new Array(
@@ -55,6 +58,5 @@ var aText = new Array(
       setTimeout("typewriter()", iSpeed);
      }
     }
-    
-    
-    typewriter();
+
+        typewriter();
