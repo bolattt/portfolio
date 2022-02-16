@@ -12,6 +12,11 @@ root{
     --title: white;
     --link:#8b7af4;
 }
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 
 /* #242627
 
@@ -31,6 +36,8 @@ root{
 body{
     /* background-color: #e2e2e2; */
     /* background-color: #242627; */
+    /* min-width: 100vw; */
+    overflow-x:hidden;
 }
 
 section{
@@ -249,6 +256,8 @@ section{
 #projects .container{
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top:5%;
     margin-bottom:5%;
 }
