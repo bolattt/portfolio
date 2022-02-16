@@ -193,10 +193,24 @@ section{
 /************************************************/
 
 /****************** Contact Me ***********************/
+
 .contact-me{
     position:relative;
+    display:flex;
+    flex-direction: column;
 }
- .contact-form{
+.socials-container{
+
+    /* border:1px solid; */
+}
+.socials-row{
+    display:flex;
+}
+ .socials-row img{
+    width:100px;
+    height:100px;
+}
+.contact-form{
     width:90%;
     height:65vh;
 }
