@@ -82,14 +82,21 @@ section{
 }
 .section--about{
     background-color: #242627;
-    /* height:90vh; */
     width: 100%;
+  
+}
+.section--about .about-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .section--about .row{
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-top:5%;
+    margin-top:1rem;
+
 }
 
 .blockquote{
@@ -120,8 +127,7 @@ section{
 .section--about h3{
     text-align: center;
     line-height: 1;
- 
-    /* letter-spacing: 0.1rem; */
+    letter-spacing: 0.1rem;
 }
 .section--about p{
     font-size: 1.5rem;
