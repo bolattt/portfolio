@@ -59,6 +59,8 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    clip-path:polygon(0 0,100% 0,100% 88%,0 100%);
+
 }
 .section--hero h1:nth-child(1){
     font-size:4rem;
@@ -78,6 +80,7 @@ section{
 .section--about{
     background-color: #242627;
     width: 100%;
+
   
 }
 .section--about .about-container {
@@ -168,32 +171,6 @@ section{
     }
 }
 
-.neumorphic {
-    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
-      -12px -12px 24px 0 rgba(255, 255, 255, 0.1);
-    font-size: 5rem;
-    width: 200px;
-    height: 200px;
-    border-radius: 40px;
-    overflow: hidden;
-    padding: 1.3rem;
-    display: flex;
-  }
-
-  .neumorphic2 {
-    box-shadow: 12px 12px 24px 0 rgba(255, 255, 255, 0.2),
-      -12px -12px 24px 0 rgba(255, 255, 255, 0.1);
-    font-size: 5rem;
-    width: 100%;
-    height: 100%;
-    border-radius: 40px;
-    overflow: hidden;
-    padding: 1.3rem;
-    display: flex;
-  }
-
-
-
 /******************** Projects Section **************************/
 
 #projects .container{
@@ -225,10 +202,6 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center; */
-}
-
-#projects h3{
-    text-align: center;
 }
 
 .section--projects img{
@@ -304,7 +277,7 @@ section{
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
 }
 
-.registration-form .form-icon{
+/* .registration-form .form-icon{
 	text-align: center;
     background-color: #5891ff;
     border-radius: 50%;
@@ -315,7 +288,7 @@ section{
     margin: auto;
     margin-bottom: 50px;
     line-height: 100px;
-}
+} */
 
 .registration-form .item{
 	border-radius: 20px;
@@ -323,7 +296,7 @@ section{
     padding: 10px 30px;
 }
 
-.registration-form .create-account{
+.registration-form .send-message-btn{
     border-radius: 30px;
     padding: 10px 20px;
     font-size: 18px;
@@ -334,7 +307,7 @@ section{
     margin-top: 30px;
 }
 
-.registration-form .social-media{
+/* .registration-form .social-media{
     max-width: 600px;
     background-color: #fff;
     margin: auto;
@@ -345,12 +318,12 @@ section{
     color: #9fadca;
     border-top: 1px solid #dee9ff;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
-}
+} */
 
-.registration-form .social-icons{
+/* .registration-form .social-icons{
     margin-top: 30px;
     margin-bottom: 16px;
-}
+} */
 
 .registration-form .social-icons a{
     font-size: 23px;
@@ -366,9 +339,8 @@ section{
     line-height: 45px;
 }
 
-.registration-form .social-icons a:hover{
-    text-decoration: none;
-    opacity: 0.6;
+.registration-form  a:hover, .registration-form .send-message-btn:hover{
+    opacity: 0.9;
 }
 
 @media (max-width: 576px) {
@@ -436,4 +408,33 @@ footer p{
     0 14px 5px rgba(0,0,0, 0.18),
     0 6px 5px rgba(0,0,0, 0.21);
 }
+
 /***************************************/
+
+/**************** img  box shadow ***********************/
+
+.neumorphic {
+    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+      -12px -12px 24px 0 rgba(255, 255, 255, 0.1);
+    font-size: 5rem;
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    overflow: hidden;
+    padding: 1.3rem;
+    display: flex;
+  }
+
+  .neumorphic2 {
+    box-shadow: 12px 12px 24px 0 rgba(255, 255, 255, 0.2),
+      -12px -12px 24px 0 rgba(255, 255, 255, 0.1);
+    font-size: 5rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    overflow: hidden;
+    padding: 1.3rem;
+    display: flex;
+  }
+
+  /***************************************/
