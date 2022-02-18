@@ -44,7 +44,6 @@ body{
 
 section{
     min-height:100vh;
-    /* overflow: hidden; */
 }
 
 /***************** hero section **********************/
@@ -247,7 +246,7 @@ section{
 .socials-and-form-container{
     display:flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     height: 100vh;
 }
@@ -384,10 +383,6 @@ section{
         line-height: 70px;
     }
 }
-
-
-
-
 
 /***************** footer **********************/
 

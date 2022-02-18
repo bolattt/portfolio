@@ -45,16 +45,16 @@
           >
             <div class="navbar-nav ">
               <a
-                class="nav-link  active text-uppercase"
+                class="nav-link  active text-uppercase  me-3"
                 aria-current="page"
                 href="#home"
                 >Home</a
               >
-              <a class="nav-link  text-uppercase" href="#about">About</a>
-              <a class="nav-link  text-uppercase" href="#projects"
+              <a class="nav-link  text-uppercase me-3" href="#about">About</a>
+              <a class="nav-link  text-uppercase me-3" href="#projects"
                 >Projects</a
               >
-              <a class="nav-link  text-uppercase" href="#contact"
+              <a class="nav-link  text-uppercase me-3" href="#contact"
                 >Contact</a
               >
             </div>
@@ -260,19 +260,20 @@
                 <h4 class="typedtext" >Contact</h4>
             </div> 
              <div class="background-img-wrapper"></div>
-            <div class="socials-and-form-container">
-                <div class="socials-container"> 
-                    <div class="socials-row">
-                        <a href="https://www.linkedin.com/in/bo-latt/" target="_blank">
-                            <img src="./assets/socials/github.png" alt="github">
-                        </a>
-                        <a href="https://github.com/bolattt/" target="_blank">
-                            <img src="./assets/socials/linkedin.png" alt="linkedin">
-                        </a>
-                    </div>
-                </div>
+            <div class="socials-and-form-container" >
+        
                 <div class="registration-form">
-                    <form>
+                    <div class="socials-container"> 
+                        <div class="socials-row">
+                            <a href="https://www.linkedin.com/in/bo-latt/" target="_blank">
+                                <img src="./assets/socials/github.png" alt="github">
+                            </a>
+                            <a href="https://github.com/bolattt/" target="_blank">
+                                <img src="./assets/socials/linkedin.png" alt="linkedin">
+                            </a>
+                        </div>
+                    </div>
+                    <form name="contact" method="POST" data-netlify="true">
                        
                         <div class="form-group">
                             <input type="text" class="form-control item" id="name" placeholder="Name">
