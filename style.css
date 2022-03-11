@@ -223,8 +223,11 @@ section{
 /****************** Contact Me ***********************/
 
 .contact-me{
-    position:relative;
-  
+    position:relative; 
+}
+.fa-custom{
+    color:#333;
+    font-size: 3.5rem;
 }
 .socials-and-form-container{
     display:flex;
