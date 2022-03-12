@@ -97,12 +97,6 @@ section{
 
 }
 
-.blockquote{
-    font-style: italic;
-}
-.blockquote-footer{
-    margin-top:10px;
-}
 
 .profile-pic-container{
     display: flex;
@@ -122,10 +116,11 @@ section{
     z-index:10;
 }
 
-.section--about h3{
-    text-align: center;
-    line-height: 1;
-    letter-spacing: 0.1rem;
+.section--about .about-me-text{
+    text-align: left;
+    line-height: 1.5;
+    color:#e2e2e2;
+    /* word-spacing: 0.5em; */
 }
 .section--about p{
     font-size: 1.5rem;
@@ -229,6 +224,7 @@ section{
     color:#333;
     font-size: 3.5rem;
 }
+
 .socials-and-form-container{
     display:flex;
     flex-direction: column;
