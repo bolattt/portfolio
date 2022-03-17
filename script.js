@@ -24,3 +24,14 @@ scrollUp.addEventListener('click',()=> {
 AOS.init();
 
 
+
+
+
+async function getWeather(){
+    const res = await fetch('http://api.weatherapi.com/v1/current.json?key=18390cd176d247dbaa4215149221403&q=Brooklyn&aqi=no');
+    const data = await res.json();
+    console.log(data)
+    
+  }
+  
+  getWeather()

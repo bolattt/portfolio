@@ -42,6 +42,7 @@
           <div
             class="collapse navbar-collapse justify-content-center"
             id="navbarNavAltMarkup"
+            data-aos-duration="600" data-aos="fade-down" data-aos-delay="100"
           >
             <div class="navbar-nav ">
               <a
@@ -95,18 +96,19 @@
             <div class="container about-container">
              <div class="row small-screen-fix  about-intro">
                    
-                    <div class="col-md-6" >
+                    <div class="col-md-6" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0" >
                             <div id="headingGroup" class=" text-center text-white ">
                             <h3 class="about-me-text">Motivated hardworking professional with 350+ training hours and experience in Web development. Dedicated quick learner with a passion for tech. Interested in attaining a role as a Jr web developer that  will allow me to learn, grow and excel. Eager to contribute to team success with improved skills.  </h3>
                         </div>   
                     </div> 
 
                     
-                    <div class="col-md-6 profile-pic-container " >
+                    <div class="col-md-6 profile-pic-container" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
                         <img
-                            src="./assets/images/avatar1.jpeg"
+                            src="./assets/profile.jpg"
                             alt="hands"
-                            class="img-fluid neumorphic2"
+                            class="img-fluid neumorphic2 profile-pic"
+                            
                         />
                     </div> 
                             
@@ -120,41 +122,47 @@
             <div class="bg-dark-text-white py-2 container-fluid sticky-top sticky-offset" >
                 <h4 class="typedtext">Skills</h4>
             </div>
-            <div class="container skills-container" data-aos="slide-up">
-            <div class="row">
-                <img
-                class="neumorphic"
-                src="./assets/skills/html5-brands.svg"
-                alt="html"
-                />
-                <img
-                class="neumorphic"
-                src="./assets/skills/css3-brands.svg"
-                alt="css"
-                />
-                <img
-                class="neumorphic"
-                src="./assets/skills/js-square-brands.svg"
-                alt="javascript"
-                />
-            </div>
-            <div class="row">
-                <img
-                class="neumorphic"
-                src="./assets/skills/react-brands.svg"
-                alt="react"
-                />
-                <img
-                class="neumorphic"
-                src="./assets/skills/node-brands.svg"
-                alt="node"
-                />
-                <img
-                class="neumorphic"
-                src="./assets/skills/git-alt-brands.svg"
-                alt="git"
-                />
-            </div>
+            <div class="container skills-container">
+                <div class="row">
+                     <img
+                        class="neumorphic"
+                        src="./assets/skills/html5-brands.svg"
+                        alt="html" 
+                        data-aos-duration="600" data-aos="fade-down" data-aos-delay="0"/>
+                          
+                        <img
+                    class="neumorphic"
+                    src="./assets/skills/css3-brands.svg"
+                    alt="css"
+                    data-aos-duration="600" data-aos="fade-down" data-aos-delay="150"/>
+                    
+                        <img
+                        class="neumorphic"
+                        src="./assets/skills/js-square-brands.svg"
+                        alt="javascript"
+                        data-aos-duration="600" data-aos="fade-down" data-aos-delay="300"/>
+               
+                
+                </div>
+                <div class="row">
+                        <img
+                        class="neumorphic"
+                        src="./assets/skills/react-brands.svg"
+                        alt="react"
+                        data-aos-duration="600" data-aos="fade-down" data-aos-delay="450"/>
+                    <img
+                    class="neumorphic"
+                    src="./assets/skills/node-brands.svg"
+                    alt="node"
+                    data-aos-duration="600" data-aos="fade-down" data-aos-delay="600"/>
+                                  
+                    <img
+                    class="neumorphic"
+                    src="./assets/skills/git-alt-brands.svg"
+                    alt="git"
+                    data-aos-duration="600" data-aos="fade-down" data-aos-delay="750"/>
+                
+                </div>
             </div>
         </section>   
 
@@ -164,70 +172,64 @@
                 <h4 class="typedtext" >Projects</h4>
             </div> 
 
-            <div class="container" data-aos="zoom-in">
+            <div class="container" >
                 <div class="row mb-5 project-container">
-                    <div class="project-card col-md-6">
-                        <div class="image">
+                    <div class="project-card col-md-6" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+                        <div class="image" >
                             <img
                             class="neumorphic2"
-                            src="https://images.unsplash.com/photo-1509463536615-1ca163bcfb3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1678&q=80"
-                            alt="html"
+                            src="./assets/projects/11.png"
+                            alt="project 1"
                             />
                         </div>
                         <div class="content">
-                            <h3>content</h3>
+                            <h3>Quote Generator</h3>
                             <p class="project-details">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-                                ratione vel inventore labore commodi modi quos culpa aut saepe!
-                                Alias!
-                              </p>
+                                Responsive quotes generator using fetch to get data from a free quotes api.
+                            </p>
                         </div>
                       
                     </div>
 
-                    <div class=" col-md-6">
+                    <div class=" col-md-6 data-aos-duration="600" data-aos="fade-down" data-aos-delay="150"">
                         <div class="image">
                             <img
                             class="neumorphic2"
-                            src="https://images.unsplash.com/photo-1509463536615-1ca163bcfb3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1678&q=80"
+                            src="./assets/projects/55.png"
                             alt="html"
                             />
                         </div>
-                        <div class="content">
-                            <h3>content</h3>
+                        <div class="content" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+                            <h3>Infinity Scroll</h3>
                             <p class="project-details">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-                                ratione vel inventore labore commodi modi quos culpa aut saepe!
-                                Alias!
+                                It let uers toggles between light and dark mode. It uses local storage to store user selected theme so it doesn't change back to default on refresh.
                               </p>
                         </div>
                       
                     </div>
                  
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos-duration="600" data-aos="fade-down" data-aos-delay="450">
                         <div class="image">
                             <img
                             class="neumorphic2"
-                            src="https://images.unsplash.com/photo-1509463536615-1ca163bcfb3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1678&q=80"
+                            src="./assets/projects/3.png"
                             alt="html"
                             />
                         </div>
                         <div class="content">
                             <h3>content</h3>
                             <p class="project-details">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-                                ratione vel inventore labore commodi modi quos culpa aut saepe!
-                                Alias!
+                                A text to speech joke teller. On request, a call to joke API made to get jokes and it is passed to text-to-speech API to tell us a joke.
                               </p>
                         </div>
 
                     </div>
 
-                    <div class=" col-md-6">
+                    <div class=" col-md-6" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
                         <div class="image">
                             <img
                             class="neumorphic2"
-                            src="https://images.unsplash.com/photo-1509463536615-1ca163bcfb3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1678&q=80"
+                            src="./assets/projects/4.png"
                             alt="html"
                             />
                         </div>
@@ -255,16 +257,19 @@
         
                 <div class="registration-form">
                     <div class="socials-container"> 
-                        <div class="socials-row mb-3">
-                            <a href="https://www.linkedin.com/in/bo-latt/" target="_blank" class="mx-4">
+                        <div class="socials-row mb-3" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+                            <a href="https://www.linkedin.com/in/bo-latt/" target="_blank" class="mx-4"
+                            >
                                 <i class="fa-brands fa-github fa-custom"></i>
                             </a>
-                            <a href="https://github.com/bolattt/" target="_blank" class="me-4">
+                            <a href="https://github.com/bolattt/" target="_blank" class="me-4"
+                            >
                                 <i class="fa-brands fa-linkedin fa-custom"></i>
                             </a>
                         </div>
                     </div>
-                    <form name="contact" method="POST" data-netlify="true">
+                    <form name="contact" method="POST" data-netlify="true" 
+                    data-aos-duration="600" data-aos="fade-down" data-aos-delay="150">
                        
                         <div class="form-group">
                             <input type="text" class="form-control item" name="name" id="name" placeholder="Name">
